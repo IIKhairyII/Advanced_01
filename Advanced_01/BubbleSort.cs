@@ -8,7 +8,7 @@ namespace Advanced_01
         {
             Stopwatch timer = new();
             timer.Start();
-            for (int i = 0; i < array.Length; i++)
+            for (int i = 0; i < array?.Length; i++)
             {
                 for (int j = 0; j < array.Length - i - 1; j++)
                 {
@@ -29,7 +29,7 @@ namespace Advanced_01
         {
             Stopwatch timer = new();
             timer.Start();
-            for (int i = 0; i < arr.Length - 1; i++)
+            for (int i = 0; i < arr?.Length - 1; i++)
             {
                 bool swapped = false;
 
